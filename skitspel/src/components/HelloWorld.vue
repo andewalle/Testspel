@@ -10,13 +10,13 @@
 			<b-list-group>
 				<b-row class="formss">
 					<b-col sm="3">
-					<b-form-input v-model="text" placeholder="Enter bot answer"></b-form-input>
-					</b-col>
-					<b-col sm="3">
-					<b-form-input v-model="text" placeholder="Enter bot answer"></b-form-input>
-					</b-col>
-					<b-col sm="3">
 					<b-form-input v-model="text" placeholder="Enter your answer"></b-form-input>
+					</b-col>
+					<b-col sm="3">
+					<b-form-input v-model="text" placeholder="Enter bot answer"></b-form-input>
+					</b-col>
+					<b-col sm="3">
+					<b-form-input v-model="text" placeholder="Enter bot answer"></b-form-input>
 					</b-col>
 			  </b-row>
 			</b-list-group>
@@ -81,6 +81,6 @@ a {
 }
 
 .imageRow{
-	margin: 12rem;
+	margin-left: 10rem;
 }
 </style>
